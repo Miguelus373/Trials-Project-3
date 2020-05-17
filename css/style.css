@@ -37,15 +37,15 @@ nav ul {
 nav ul li {
   margin-bottom: 50px;
   font-size: 16px;
- 
+
 }
 
 nav ul li a{
   color: slategray;
   background-color: lightblue;
   box-shadow: 2px 2px 8px black;
-  padding: 10px;  
-  
+  padding: 10px;
+
 }
 
 code{
@@ -60,6 +60,13 @@ p{
 
 a:visited, a:link {
     color: darkblue;
-    text-decoration: none; 
-   
+    text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  #main-doc {
+    font-size: : 12px;
+  }
 }
