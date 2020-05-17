@@ -8,16 +8,24 @@
 
 #main-doc{
 
-width: 80%;
+width: auto;
 height:auto;
-margin-left: 40%;
+margin-left: 30%;
 
 }
 
-h2{
+h1 {
+  text-shadow: 1px 1px 3px darkcyan;
+  color:  gray
+}
 
-  color: slategray; 
-   text-shadow: 1px 1px 3px darkcyan
+h2{
+  color: slategray;
+  text-shadow: 1px 1px 3px darkcyan
+}
+
+#navbar {
+  width: px
 }
 
 nav ul {
@@ -27,11 +35,17 @@ nav ul {
 }
 
 nav ul li {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
+  font-size: 16px;
+ 
 }
-nav ul li a{
-  color:  #slategray;
 
+nav ul li a{
+  color: slategray;
+  background-color: lightblue;
+  box-shadow: 2px 2px 8px black;
+  padding: 10px;  
+  
 }
 
 code{
@@ -44,6 +58,8 @@ p{
 
 }
 
-a:visited {
-    color: black
+a:visited, a:link {
+    color: darkblue;
+    text-decoration: none; 
+   
 }
